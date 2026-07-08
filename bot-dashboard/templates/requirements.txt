@@ -1,0 +1,7 @@
+streamlit>=1.40
+plotly>=5.20
+pandas>=2.0
+pg8000>=1.30
+sqlalchemy>=2.0
+python-dotenv>=1.0
+openpyxl>=3.1

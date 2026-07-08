@@ -1,0 +1,9 @@
+# nunca subir secrets reales ni basura del SO
+.env
+.env.local
+*.key
+*.pem
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

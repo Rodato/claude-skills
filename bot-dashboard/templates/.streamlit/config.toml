@@ -1,0 +1,11 @@
+# Tema base de Streamlit. El CSS fino vive en utils/styles.py (inject()).
+[theme]
+base = "light"
+primaryColor = "#0273e5"
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#111827"
+font = "sans serif"
+
+[server]
+headless = true
