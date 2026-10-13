@@ -6,6 +6,31 @@ el feed (0 = el más reciente).
 
 ---
 
+## [gemini-argon] · publicado 2026-10-13 · versión editada por Daniel sobre un borrador de Claude
+*Tercer ejemplo de edición. Tumbó el "Peeeero" (estaba forzado) y giró con "Sin embargo, de acuerdo con…". Sacó el yo de "a mí lo que más me llamó la atención no fue un benchmark" y puso el remate propio "Una barbaridad.". Aterrizó el para qué a la audiencia ("tareas del día a día de un programador/desarrollador"). Quitó el nombre de la autora y el ángulo de "la gente no escoge su IA"; acreditó a "la newsletter de Every Inc.". Cerró con un pendiente concreto (Gemini CLI) en vez de terminar en la frase redonda.*
+
+> Lo nuevo de Google se llama Gemini 4 Argon y desde hoy lo puede usar cualquiera que pague.
+>
+> Lo anunciaron el 30 de septiembre, pero primero se lo dieron a equipos de ciberseguridad de confianza.
+>
+> Dos semanas después llegó a la API paga y a los suscriptores Pro y Ultra.
+>
+> Lo que más me llamó la atención fue el límite de salida: pasó de 64 mil tokens a un millón.
+>
+> Un millón de tokens que el modelo puede escribir en una sola respuesta. Una barbaridad.
+>
+> ¿Y esto para qué?, te lo cuento en tareas del día a día de un programador/desarrollador: migrar código de C/C++ a Rust. Una de esas migraciones, el decodificador de video libgav1, quedó 2,7 veces más rápida que el port a Rust que ya existía, y da la misma salida. Otra va por más de 800 mil líneas del kernel de Fuchsia.
+>
+> (Ojo: son cifras de Google sobre Google. Nadie las ha reproducido todavía.)
+>
+> Google vuelve a estar entre los modelos frontera luego de muuuucho rato.
+>
+> Sin embargo, de acuerdo con la newsletter de Every Inc., es un gran modelo con un "harness" desactualizado.
+>
+> El modelo llegó. Lo que lo rodea, todavía no. Hay que ver que tan bien rinde mientras tenemos nueva versión de Gemini CLI.
+
+---
+
 ## [boris-prompt] · publicado 2026-10-06 · versión editada por Daniel sobre un borrador de Claude
 *Segundo ejemplo de edición. Abre llano con el hecho del día (tumbó el puente "Hace unos meses les conté…"), suaviza el juicio sobre Boris ("floja" → "subjetiva"), cambia "dedazo" por "error de tipeo" y suelta "No hay secreto." en su propia línea. Va con el pantallazo del prompt como imagen.*
 

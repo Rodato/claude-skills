@@ -86,7 +86,11 @@ ritmo y remata.
 > El modelo no desapareció. Lo enjaularon.
 
 **La "e" estirada.** `Peeeero` / `Peeeeero` marca el giro del post. Aparece en
-varios. También `Hasta que…` repetido como escalera.
+varios. También `Hasta que…` repetido como escalera. **Ojo: no es el giro por
+defecto.** Daniel lo tumbó en el post de Gemini Argon por forzado ("no es un
+peeeero siempre") y giró con un "Sin embargo, de acuerdo con…". Usalo solo si
+el giro de verdad sorprende; si no, una transición normal. La "u" estirada
+también es suya ("muuuucho rato").
 
 **El inciso que le baja el tono a lo que acaba de decir.** Entre paréntesis o
 entre guiones largos:
@@ -220,6 +224,14 @@ OpenAI, 2026-09-30, y el prompt de Boris Cherny, 2026-10-06; los dos en
   tener lo de la frikada al final... no exageres"). Solo va si el dato surge
   solo y vale la pena; por defecto el post termina en el cierre argumental.
   Lo mismo aplica a cualquier recurso de esta lista: no metas todos en cada post.
+- **Tercer post (Gemini Argon, 2026-10-13): "estás exagerando".** Tumbó el
+  "Peeeero" forzado; sacó el contraste de relleno ("no fue un benchmark, fue…")
+  y dejó la afirmación directa con un remate propio ("Una barbaridad."). Aterrizó
+  el "para qué" a quién le sirve ("tareas del día a día de un desarrollador").
+  Acreditó al medio ("la newsletter de Every Inc.") en vez de a la autora. Y
+  después del cierre redondo agregó un pendiente concreto ("hay que ver qué tan
+  bien rinde… nueva versión de Gemini CLI"). La lección general: **menos
+  recursos de voz por post, no más.** Si hay que elegir, la frase llana gana.
 
 ## Checklist antes de publicar
 
