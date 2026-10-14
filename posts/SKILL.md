@@ -192,8 +192,9 @@ explicar el método. Por debajo de 40 palabras solo funcionan los posts de
 ## Lo que Daniel le cambia al borrador
 
 Lo que corrige cuando le paso un borrador. Pesa más que el corpus, porque es
-él editando el texto escrito para él. Hasta ahora son dos posts (dots de
-OpenAI, 2026-09-30, y el prompt de Boris Cherny, 2026-10-06; los dos en
+él editando el texto escrito para él. Hasta ahora son cuatro posts (dots de
+OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
+2026-10-13, y los benchmarks de Argon, 2026-10-14; todos en
 `references/corpus-voz.md`), así que tomalo como tendencia, no como ley.
 
 - **Tumbó el gancho ingenioso y abrió con una presentación llana.** Yo puse
@@ -215,7 +216,10 @@ OpenAI, 2026-09-30, y el prompt de Boris Cherny, 2026-10-06; los dos en
 - **Prefiere la palabra neutra al coloquialismo forzado.** "Dedazo" →
   "error de tipeo". Y usa `--` como guion de inciso, no `—`.
 - **Sacó el link al anuncio.** En posts de noticia de producto, no lo
-  agregues por reflejo. Ofrecelo.
+  agregues por reflejo. Ofrecelo. **Distinto es el informe de un tercero**
+  del que salen las cifras: ese sí lo dejó, como invitación a leer
+  (*"Leéte el informe completo aquí: <url>"*), no como crédito seco
+  (*"Las gráficas son de…"*).
 - **Cerró con un dato lateral y liviano**, después del cierre argumental:
   *"Ah, una frikada: …"*. Es una posdata curiosa, no una conclusión. Ese dato
   también se verifica: en ese post, la versión de Daniel decía que Musk compró
@@ -232,6 +236,17 @@ OpenAI, 2026-09-30, y el prompt de Boris Cherny, 2026-10-06; los dos en
   después del cierre redondo agregó un pendiente concreto ("hay que ver qué tan
   bien rinde… nueva versión de Gemini CLI"). La lección general: **menos
   recursos de voz por post, no más.** Si hay que elegir, la frase llana gana.
+- **Cuarto post (benchmarks de Argon, 2026-10-14): la edición más liviana.**
+  Dejó intactos las cifras, el dato que contradice el titular (Opus en "high"
+  más barato), la lista `→` y el cierre. Lo que tocó va en una sola dirección:
+  **lo telegráfico lo volvió hablado.** *"Antes de los números, un detalle:"*
+  → *"Antes de contarte los resultados, un detalle que vale la pena para
+  tener contexto:"*; *"hay cifras"* → *"tenemos cifras"*; la frase suelta
+  *"Y el costo cambia mucho según eso."* la metió en paréntesis. No comprimas
+  las frases de contexto hasta dejarlas en etiqueta; la salvedad se dice como
+  se la diría a alguien. Además pegó la cifra y su contracifra en el mismo
+  párrafo (salto simple, sin línea en blanco) y pegó la lista a la línea que
+  la presenta.
 
 ## Checklist antes de publicar
 
@@ -251,4 +266,4 @@ OpenAI, 2026-09-30, y el prompt de Boris Cherny, 2026-10-06; los dos en
 
 ## Ejemplos completos
 
-`references/corpus-voz.md` — doce posts reales con su alcance y qué hace cada uno.
+`references/corpus-voz.md` — quince posts reales con su alcance y qué hace cada uno (los cuatro primeros, con lo que Daniel le cambió al borrador).

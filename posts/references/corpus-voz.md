@@ -6,6 +6,36 @@ el feed (0 = el más reciente).
 
 ---
 
+## [argon-benchmarks] · publicado 2026-10-14 · versión editada por Daniel sobre un borrador de Claude
+*Cuarto ejemplo de edición, y el más liviano: dejó las cifras, el giro (Opus 5.5 en "high" saca más y cuesta menos), la lista y el cierre. Lo que cambió fue volver hablado lo telegráfico ("Antes de los números, un detalle:" → "Antes de contarte los resultados, un detalle que vale la pena para tener contexto:"), meter "el costo cambia mucho" en paréntesis, pegar cifra y contracifra en un párrafo y la lista a su línea de presentación. Cambió el crédito seco del final por una invitación a leer el informe. Va con cuatro pantallazos de Artificial Analysis.*
+
+> Artificial Analysis ya corrió sus benchmarks sobre Gemini 4 Argon. Ahora sí tenemos cifras que no son de Google.
+>
+> Antes de contarte los resultados, un detalle que vale la pena para tener contexto: cada modelo se evalúa con un nivel de esfuerzo de razonamiento distinto. Gemini corrió en "high"; los de Anthropic y OpenAI, casi todos en "max" (el costo cambia mucho según eso).
+>
+> En su índice de inteligencia, que junta 10 evaluaciones, sacó 53: puesto 8 entre 216 modelos. Empatado con GPT-6 Astra y Claude Fable 5.1, y por debajo de Claude Opus 5.5 (58) y Claude Sonnet 5.5 (56).
+>
+> Cada tarea del índice le cuesta 1,99 dólares. Opus 5.5 cuesta 5,98 y Fable 7,63.
+> Sin embargo, el mismo Opus 5.5 en "high" saca 54 y cuesta 1,82. Y GPT-6.1 Sol saca 52 por 0,72.
+>
+> Está en la frontera, pero no es el más barato de la frontera.
+>
+> Donde sí gana es en dos pruebas puntuales:
+> → Es el que menos alucina en AA-Omniscience: 85% de tasa de no-alucinación, contra 82% del segundo (o sea, cuando no sabe algo tiende a decirlo en vez de inventárselo).
+> → Es el primero en AutomationBench, que mide flujos agénticos en aplicaciones SaaS: 78%, contra 72% de Claude Sonnet 5.5.
+>
+> Para los que programan: en Terminal-Bench 4.0 queda cuarto con 57%, detrás de Sonnet 5.5, Opus 5.5 y GPT-6 Astra.
+>
+> En contexto largo (AA-LCR) queda en la parte de abajo de la tabla: 80%, contra 89% del primero.
+>
+> Y velocidad todavía no hay dato.
+>
+> El 53 lo pone en la conversación. El 85% es la razón para probarlo.
+>
+> Leéte el informe completo aquí: https://lnkd.in/ezpVm8dY
+
+---
+
 ## [gemini-argon] · publicado 2026-10-13 · versión editada por Daniel sobre un borrador de Claude
 *Tercer ejemplo de edición. Tumbó el "Peeeero" (estaba forzado) y giró con "Sin embargo, de acuerdo con…". Sacó el yo de "a mí lo que más me llamó la atención no fue un benchmark" y puso el remate propio "Una barbaridad.". Aterrizó el para qué a la audiencia ("tareas del día a día de un programador/desarrollador"). Quitó el nombre de la autora y el ángulo de "la gente no escoge su IA"; acreditó a "la newsletter de Every Inc.". Cerró con un pendiente concreto (Gemini CLI) en vez de terminar en la frase redonda.*
 
