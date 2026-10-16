@@ -192,10 +192,10 @@ explicar el método. Por debajo de 40 palabras solo funcionan los posts de
 ## Lo que Daniel le cambia al borrador
 
 Lo que corrige cuando le paso un borrador. Pesa más que el corpus, porque es
-él editando el texto escrito para él. Hasta ahora son cinco posts (dots de
+él editando el texto escrito para él. Hasta ahora son seis posts (dots de
 OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
-2026-10-13; los benchmarks de Argon, 2026-10-14, y Harvey LAB-AA,
-2026-10-16; todos en
+2026-10-13; los benchmarks de Argon, 2026-10-14; Harvey LAB-AA,
+2026-10-16, y el de chat nuevo por tarea, 2026-10-19; todos en
 `references/corpus-voz.md`), así que tomalo como tendencia, no como ley.
 
 - **Tumbó el gancho ingenioso y abrió con una presentación llana.** Yo puse
@@ -261,6 +261,17 @@ OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
   suelta; *"Invenciones graves, en promedio por tarea:"* → *"¿Los demás
   modelos?"*), sacó un dato de relleno y partió en párrafos de una línea el
   remate final del ranking.
+- **Sexto post (chat nuevo por tarea, 2026-10-19): "el mejor de los 3, muy al
+  día a día de las personas".** De tres borradores del mismo día (un modelo
+  nuevo, un concepto de backend y un hábito de uso), el que más le gustó fue
+  el que el lector puede aplicar mañana en su propio chat. Le agregó una
+  apertura que promete eso y lo pone a él en la escena: *"Aprendé a usar la
+  IA de forma muy practica. Te dejo un tip que leí la semana pasada."* Ojo:
+  no contradice "abrí llano con el hecho"; en un post de **tip práctico** la
+  apertura llana es la promesa de utilidad, en uno de **noticia** sigue
+  siendo el hecho. Sacó otra vez los puentes (*"Y no es una manía suya."*),
+  cambió *"robarse"* por *"agarrarlo"* y partió el cierre en dos líneas. Al
+  elegir ángulo, pesá más lo que la gente usa a diario que lo técnico.
 
 ## Checklist antes de publicar
 
@@ -280,4 +291,4 @@ OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
 
 ## Ejemplos completos
 
-`references/corpus-voz.md` — dieciséis posts reales con su alcance y qué hace cada uno (los cinco primeros, con lo que Daniel le cambió al borrador).
+`references/corpus-voz.md` — diecisiete posts reales con su alcance y qué hace cada uno (los seis primeros, con lo que Daniel le cambió al borrador).

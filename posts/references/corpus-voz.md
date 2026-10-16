@@ -6,6 +6,37 @@ el feed (0 = el más reciente).
 
 ---
 
+## [chat-nuevo] · programado para 2026-10-19 · versión editada por Daniel sobre un borrador de Claude
+*Sexto ejemplo de edición. Daniel lo eligió como "el mejor de los 3, muy al día a día de las personas" (frente a Muse Spark Open y Durable Execution, escritos el mismo día). Le agregó una apertura que no estaba: le promete al lector algo práctico y se pone él en la escena ("Aprendé a usar la IA de forma muy practica. Te dejo un tip que leí la semana pasada."). Sacó el puente "Y no es una manía suya." y la "Y" de "Y apagarla no lo resuelve todo.", que dejó en su propio párrafo. Cambió "robarse" por "agarrarlo". Partió el cierre en dos párrafos de una línea. Va con la figura 1 del paper de Microsoft/Salesforce.*
+
+> Aprendé a usar la IA de forma muy practica. Te dejo un tip que leí la semana pasada.
+>
+> Mike Taylor, el jefe de evaluaciones de Every, tiene apagada la memoria de Claude. Y la de ChatGPT también.
+>
+> Su razón: la memoria puede servir, pero también mete preferencias viejas e instrucciones que no tienen nada que ver en conversaciones donde no pertenecen.
+>
+> Apagarla no lo resuelve todo.
+>
+> Dentro de un mismo chat el contexto se va acumulando y las respuestas empeoran (le dicen context rot): el modelo sigue una instrucción que ya cambiaste, construye sobre un error de hace rato o se le pasa un detalle enterrado en la conversación.
+>
+> No es que se llene la ventana. Es que se ensucia.
+>
+> Por eso su regla es un chat nuevo por tarea. Si cambia la tarea, chat nuevo, aunque sea el mismo proyecto de hace cinco minutos.
+>
+> Microsoft Research y Salesforce simularon más de 200.000 conversaciones: cuando la instrucción llega por partes a lo largo de varios mensajes, en vez de completa en uno solo, el rendimiento cae 39% en promedio (ojo, el estudio es de mayo de 2025, con los modelos de ese momento).
+>
+> Su conclusión, textual: cuando un modelo toma un mal giro en una conversación, se pierde y no se recupera.
+>
+> Y dejan un truco que vale la pena agarrarlo: cuando notés que se perdió, pedile "consolidá todo lo que te he dicho hasta ahora", copiá esa respuesta y abrí un chat nuevo con ella.
+>
+> Empezar de nuevo no es perder el trabajo.
+>
+> Es dejar atrás los errores.
+>
+> Leéte el artículo de Mike aquí (una parte es para suscriptores): https://every.to/also-true-for-humans/why-i-start-a-new-thread-in-claude-every-time
+
+---
+
 ## [harvey-lab-aa] · publicado 2026-10-16 · versión editada por Daniel sobre un borrador de Claude
 *Quinto ejemplo de edición. El primer borrador abría llano con la noticia ("Artificial Analysis y Harvey le agregaron una regla a su benchmark…") y Daniel pidió "más morbo": escribió él mismo el gancho y movió el ángulo del cambio de método a la pregunta de quién inventa más. Sobre el segundo borrador: quitó las etiquetas ("La regla: …" → frase suelta; "Invenciones graves, en promedio por tarea:" → "¿Los demás modelos?"), sacó un dato de más ("Varios modelos quedaron en 0%"), metió el remate "Catorce." dentro del último bullet, partió en tres párrafos de una línea el cierre de ranking (Grok / Astra / Opus) y dejó "Completar la tarea y no inventar son habilidades distintas" sin el "El mismo informe lo resume así:" (el post entero ya está acreditado a AA y el link va al final). Mantuvo "aquí me duele lo fanboy" aunque Opus 5.5 inventa poco (0,59 por tarea); no tomó la aclaración. Va con dos pantallazos del informe: invenciones por tarea y el ranking con la regla.*
 
