@@ -6,6 +6,47 @@ el feed (0 = el más reciente).
 
 ---
 
+## [harvey-lab-aa] · publicado 2026-10-16 · versión editada por Daniel sobre un borrador de Claude
+*Quinto ejemplo de edición. El primer borrador abría llano con la noticia ("Artificial Analysis y Harvey le agregaron una regla a su benchmark…") y Daniel pidió "más morbo": escribió él mismo el gancho y movió el ángulo del cambio de método a la pregunta de quién inventa más. Sobre el segundo borrador: quitó las etiquetas ("La regla: …" → frase suelta; "Invenciones graves, en promedio por tarea:" → "¿Los demás modelos?"), sacó un dato de más ("Varios modelos quedaron en 0%"), metió el remate "Catorce." dentro del último bullet, partió en tres párrafos de una línea el cierre de ranking (Grok / Astra / Opus) y dejó "Completar la tarea y no inventar son habilidades distintas" sin el "El mismo informe lo resume así:" (el post entero ya está acreditado a AA y el link va al final). Mantuvo "aquí me duele lo fanboy" aunque Opus 5.5 inventa poco (0,59 por tarea); no tomó la aclaración. Va con dos pantallazos del informe: invenciones por tarea y el ranking con la regla.*
+
+> Todos los modelos de IA inventan, alucinan o como querás llamarlo. Pero no todos lo hacen con la misma frecuencia.
+>
+> La gente de Artificial Analysis, junto con Harvey --la empresa de IA para abogados--, se puso a contar cuánto inventa cada uno.
+>
+> A cada modelo le dieron 120 tareas legales: fusiones, impuestos, litigios, quiebras. Recibe los documentos del caso (contratos, memos, acuerdos de crédito) y tiene que entregar el informe.
+>
+> Después otro modelo (GPT-6 Sol) revisa cada informe contra esos documentos y marca todo lo que se contradijo, se inventó o se afirmó sin soporte. Solo cuentan las graves, las que llevarían a alguien a una conclusión equivocada.
+>
+> Una sola invención y la tarea no cuenta.
+>
+> Resultado: más del 60% de las tareas que los modelos tenían "aprobadas" traían algo inventado.
+>
+> El caso más llamativo es Muse Spark 1.3, de Meta. Sin la regla era el mejor: cumplía todo lo que pedía la tarea en el 26,7% de los casos. Con la regla baja a 8,9%. Dos de cada tres de sus aciertos tenían algo inventado.
+>
+> ¿Los demás modelos?
+>
+> → GPT-6 Astra: 0,03 (4 en las 120 tareas)
+> → GPT-6 Sol: 0,07 (8 en total)
+> → Muse Spark 1.3: 1,68
+> → Todos los modelos de pesos abiertos: 2,09 o más
+> → Gemini 3.8 Flash: 13,96. Casi 14 por tarea. Catorce.
+>
+> Un ejemplo de lo que cuenta como inventar: un modelo escribió "deuda: préstamo de $220M + bonos por $214M". Era un solo préstamo. 220 millones al empezar el año, 214 al terminarlo. Contó la deuda dos veces.
+>
+> Con la regla, el primero es Grok 4.7 con 9,4%.
+>
+> GPT-6 Astra casi no perdió nada y pasó de compartir el puesto 10 al 3.
+>
+> Claude Opus 5.5 queda en 4,2% (aquí me duele lo fanboy).
+>
+> Completar la tarea y no inventar son habilidades distintas.
+>
+> El benchmark de siempre te dice si el modelo hizo la tarea. Este te dice si le podés creer.
+>
+> Leéte el informe completo aquí: https://artificialanalysis.ai/articles/harvey-lab-aa-v1-1
+
+---
+
 ## [argon-benchmarks] · publicado 2026-10-14 · versión editada por Daniel sobre un borrador de Claude
 *Cuarto ejemplo de edición, y el más liviano: dejó las cifras, el giro (Opus 5.5 en "high" saca más y cuesta menos), la lista y el cierre. Lo que cambió fue volver hablado lo telegráfico ("Antes de los números, un detalle:" → "Antes de contarte los resultados, un detalle que vale la pena para tener contexto:"), meter "el costo cambia mucho" en paréntesis, pegar cifra y contracifra en un párrafo y la lista a su línea de presentación. Cambió el crédito seco del final por una invitación a leer el informe. Va con cuatro pantallazos de Artificial Analysis.*
 

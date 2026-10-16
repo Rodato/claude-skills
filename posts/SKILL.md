@@ -192,9 +192,10 @@ explicar el método. Por debajo de 40 palabras solo funcionan los posts de
 ## Lo que Daniel le cambia al borrador
 
 Lo que corrige cuando le paso un borrador. Pesa más que el corpus, porque es
-él editando el texto escrito para él. Hasta ahora son cuatro posts (dots de
+él editando el texto escrito para él. Hasta ahora son cinco posts (dots de
 OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
-2026-10-13, y los benchmarks de Argon, 2026-10-14; todos en
+2026-10-13; los benchmarks de Argon, 2026-10-14, y Harvey LAB-AA,
+2026-10-16; todos en
 `references/corpus-voz.md`), así que tomalo como tendencia, no como ley.
 
 - **Tumbó el gancho ingenioso y abrió con una presentación llana.** Yo puse
@@ -247,6 +248,19 @@ OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
   se la diría a alguien. Además pegó la cifra y su contracifra en el mismo
   párrafo (salto simple, sin línea en blanco) y pegó la lista a la línea que
   la presenta.
+- **Quinto post (Harvey LAB-AA, 2026-10-16): "con más morbo".** El borrador
+  abría llano con la noticia (*"le agregaron una regla a su benchmark"*) y
+  Daniel lo tumbó: escribió él el gancho, una verdad incómoda y general
+  (*"Todos los modelos de IA inventan… Pero no todos lo hacen con la misma
+  frecuencia."*), y el post pasó de contar el cambio de método a contar
+  **quién inventa más**. En un benchmark, el ángulo es el ranking que duele,
+  no la metodología; la metodología va, pero en dos párrafos. "Llano" no es
+  lo mismo que "titular de prensa": sigue sin estirar la realidad, pero dice
+  algo del mundo, no del anuncio. Sobre el segundo borrador repitió la
+  dirección del cuarto: **quitó las etiquetas** (*"La regla: …"* → frase
+  suelta; *"Invenciones graves, en promedio por tarea:"* → *"¿Los demás
+  modelos?"*), sacó un dato de relleno y partió en párrafos de una línea el
+  remate final del ranking.
 
 ## Checklist antes de publicar
 
@@ -266,4 +280,4 @@ OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
 
 ## Ejemplos completos
 
-`references/corpus-voz.md` — quince posts reales con su alcance y qué hace cada uno (los cuatro primeros, con lo que Daniel le cambió al borrador).
+`references/corpus-voz.md` — dieciséis posts reales con su alcance y qué hace cada uno (los cinco primeros, con lo que Daniel le cambió al borrador).
