@@ -192,11 +192,12 @@ explicar el método. Por debajo de 40 palabras solo funcionan los posts de
 ## Lo que Daniel le cambia al borrador
 
 Lo que corrige cuando le paso un borrador. Pesa más que el corpus, porque es
-él editando el texto escrito para él. Hasta ahora son seis posts (dots de
+él editando el texto escrito para él. Hasta ahora son siete posts (dots de
 OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
 2026-10-13; los benchmarks de Argon, 2026-10-14; Harvey LAB-AA,
-2026-10-16, y el de chat nuevo por tarea, 2026-10-19; todos en
-`references/corpus-voz.md`), así que tomalo como tendencia, no como ley.
+2026-10-16; el de chat nuevo por tarea, 2026-10-19, todos en
+`references/corpus-voz.md`, y el de qué es un agente, 2026-10-23), así que
+tomalo como tendencia, no como ley.
 
 - **Tumbó el gancho ingenioso y abrió con una presentación llana.** Yo puse
   *"OpenAI no lanzó un chatbot nuevo. Lanzó un empleado con cupo mensual."* y
@@ -272,6 +273,45 @@ OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
   siendo el hecho. Sacó otra vez los puentes (*"Y no es una manía suya."*),
   cambió *"robarse"* por *"agarrarlo"* y partió el cierre en dos líneas. Al
   elegir ángulo, pesá más lo que la gente usa a diario que lo técnico.
+- **Séptimo post (qué es un agente, 2026-10-23): "de eso no es el post".**
+  Pasó un tweet explicador y yo le busqué un ángulo lateral (el loop lo corre
+  el harness, comparar Claude vs ChatGPT es comparar sistemas, cifra de
+  LangChain). Lo tumbó entero: quería **el explicador mismo**, contado por él.
+  Cuando el material ya es una explicación, el post es esa explicación en su
+  voz, no un comentario encima; el ángulo "no obvio" solo si lo pide. Escribió
+  él la apertura, otra vez promesa de utilidad: *"Te cuento que es un agente
+  rápido, fácil y pragmatico."* Aceptó sin objetar que cambiara el ejemplo
+  del autor (calendario → correos) para no apropiarse de él, y el post salió
+  con la estructura del original: pasos numerados, lista `→` de piezas y la
+  fórmula como cierre.
+- **Octavo post (GPT-6.1 Terra, 2026-10-26): "es una copia del texto, el texto es de
+  alguien más".** Pegó un análisis del gráfico de OpenAI escrito en primera persona
+  ("me deja pensando") con un "mejoremos el anuncio con esto", y yo lo tomé como
+  notas suyas y lo metí casi literal. Era de un tercero y lo quería como insumo.
+  **Texto pegado no es de Daniel salvo que lo diga**, aunque venga en primera
+  persona: se usa para sacar datos e ideas, se reescribe con ángulo y frases
+  propias, y si la idea es distintiva se acredita. Ante la duda, preguntá de quién es.
+- **Noveno post (code review del equipo de Claude Code, para el 2026-10-28): "muy
+  bueno con esa aplicación práctica, ¡regio!".** Tras dos versiones técnicas preguntó
+  "¿cómo una persona puede empezar a aplicarlo a su día a día? alguien no técnico".
+  Se acortó la parte técnica y se agregó un bloque "Esto no es solo para
+  programadores" con seis consejos `→` concretos (pedí que te explique solo lo que
+  necesitás, revisá según el riesgo, pedile pruebas, chat nuevo como ojos frescos,
+  contá el tiempo completo, si lo mandás es tuyo), cada uno sacado de una práctica
+  del equipo. Confirma la regla del sexto: **aunque la fuente sea técnica, el post
+  tiene que bajar a qué hace mañana alguien que usa ChatGPT o Claude en la oficina.**
+  Además, el borrador anterior calcaba la selección del hilo de Santiago (canal):
+  con la fuente en la mano, elegí un ángulo que el canal no usó.
+- **Décimo post (Artificial Analysis Intelligence Index v5, 2026-10-28): "recordá que
+  siempre queremos sacar algo práctico de esto para gente no técnica".** Lo tuvo que
+  recordar: el primer borrador era puro ranking (60% privado, Kimi 55→46, Carbon #1 un
+  día después) y terminaba en la frase redonda. Se agregó un bloque "podés hacer lo
+  mismo en pequeño" con cinco `→` (tu propio examen con tareas reales que no están en
+  internet, lo mismo en dos o tres modelos, calificar "¿lo mandarías sin tocarlo?" como
+  FrontierCode, mismo modelo pensando poco y mucho con el dato 35 vs 58, repetir el
+  examen con cada modelo nuevo). Ya no es tendencia: **todo post, también los de
+  benchmarks, lleva la bajada práctica por defecto**, aunque no la pida. Ver ítem 12
+  del checklist.
 
 ## Checklist antes de publicar
 
@@ -287,6 +327,9 @@ OpenAI, 2026-09-30; el prompt de Boris Cherny, 2026-10-06; Gemini Argon,
 9. ¿El link está en el cuerpo?
 10. ¿Desapareció el hype?
 11. ¿Suena a alguien explicando algo que le importa, o a alguien posicionándose?
+12. ¿Hay algo que una persona NO técnica pueda hacer mañana con esto? Si el post es de
+    un benchmark, un modelo o un paper, falta el bloque práctico (lista `→` de 3 a 5
+    acciones, cada una amarrada a un dato de la fuente). Sin eso no está listo.
 
 
 ## Ejemplos completos
