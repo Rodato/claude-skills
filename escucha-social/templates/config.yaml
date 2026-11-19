@@ -1,0 +1,57 @@
+# TEMPLATE de la skill `escucha-social`. Copiar a config.yaml en la raíz del proyecto.
+#
+# <PROYECTO> — Escucha social en X sobre <TEMA> en <PAÍS>.
+#
+# Definí acá, en dos o tres líneas, cuál es el OBJETO de estudio y —sobre todo— cuál NO es.
+# Esa frase se repite luego en la portada del .docx, en el SYSTEM_PROMPT del clasificador y
+# en el README. Si no la podés escribir corta, la escucha todavía no está diseñada.
+#
+# Diseño derivado de: <brief / notas de reunión, con fecha y participantes>.
+# Primer barrido = red amplia. Lo que no rinda se poda en la 2ª iteración; por eso cada
+# keyword lleva `nivel: core | probe`.
+
+# Ventana completa. El barrido arranca con las últimas N ventanas (`--windows N`) y se
+# extiende hacia atrás después, ya con las keywords depuradas: el scraper es reanudable.
+window:
+  start: 2025-09-11
+  end: 2026-09-11
+
+chunk: month          # week | month — granularidad de las ventanas since:/until:
+query_type: Latest    # Latest (exhaustivo, representa volumen) | Top (alto engagement)
+lang: es              # se agrega como lang:es a cada query — NO acota por país
+
+# Tope de resultados por (keyword × ventana). El actor suele devolver algo más (pagina de 20).
+max_items: 150
+
+# Modelo OpenRouter para clasificación. Barato y suficiente para taxonomías cerradas.
+model: google/gemini-2.5-flash-lite
+
+# --- Cuentas objetivo (opcional) ---------------------------------------------
+# Se barren en dos modos: `emite` (from:) y `menciones` (@handle -from:handle).
+# El segundo alimenta el mapa de apoyo vs. detractores. Son POBLACIONES APARTE:
+# sus porcentajes no se mezclan con los del corpus de keywords.
+cuentas:
+  - { handle: <handle>, org: <slug>, nombre: "<Nombre visible>" }
+  # Si una organización del encargo no tiene cuenta en la plataforma, NO la inventes:
+  # anotalo acá y declaralo en el .docx como ecosistema sin medir.
+
+keywords:
+  # Campos: q · bloque (agrupa cobertura y rendimiento) · detecta (documenta la intención)
+  #         phrase (true → frase exacta entre comillas) · nivel (core | probe)
+
+  # --- <bloque 1: los actores/objetos nombrados del encargo> ------------------
+  - { q: <Nombre propio>,        bloque: organizaciones, detecta: la organización en la conversación, phrase: true, nivel: core }
+
+  # --- <bloque 2: el concepto ancla> -----------------------------------------
+  - { q: <concepto>,             bloque: concepto,       detecta: el concepto explícito,   phrase: true,  nivel: core }
+
+  # --- <bloques 3..N: las dimensiones del encargo> ---------------------------
+  # Una por pregunta que el cliente quiere poder responder.
+
+  # --- Variantes ancladas al país --------------------------------------------
+  # Los términos genéricos traen sobre todo conversación de otros países hispanohablantes.
+  # Medí el humo antes de decidir: correr --smoke y contar cuántos de 60 son del país.
+  # Anclar con el AND `<País>` sube la precisión pero sesga al registro noticioso (la gente
+  # rara vez nombra su propio país). Por eso se corren LAS DOS: la amplia aporta lenguaje
+  # vernáculo, la anclada aporta volumen relevante. El dedup por id evita el doble conteo.
+  - { q: '"<concepto>" <País>',  bloque: concepto,       detecta: el concepto, anclado,    phrase: false, nivel: core }

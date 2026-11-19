@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# notas locales de las skills (rutas y nombres de clientes)
+**/LOCAL.md
