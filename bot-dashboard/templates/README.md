@@ -11,7 +11,7 @@ skill. Por defecto usan **pg8000 + SQLAlchemy** (seguro para Python 3.12+ / Stre
    app.py  requirements.txt  runtime.txt  .env.example  .streamlit/config.toml
    utils/db.py  utils/styles.py
    components/charts.py  components/kpi_row.py  components/filters.py
-   pages/overview.py
+   views/overview.py
    ```
 2. `cp .env.example .env` y poné tu `DATABASE_URL` de Supabase (pooler, puerto 6543).
 3. **Ajustá `utils/db.py` al esquema de tu bot**: cambiá el nombre de tabla (`interactions`) y de
@@ -33,6 +33,6 @@ skill. Por defecto usan **pg8000 + SQLAlchemy** (seguro para Python 3.12+ / Stre
 - `components/charts.py` — fábrica Plotly (`go.*`): `bar_h`, `donut`, `line_timeseries` (rellena días en 0).
 - `components/kpi_row.py` — KPI cards HTML con accent bar + sparkline + delta.
 - `components/filters.py` — sidebar con date pickers + presets 7d/30d; `get_filters()`.
-- `pages/overview.py` — página de ejemplo cableando KPIs + actividad diaria con cache.
+- `views/overview.py` — página de ejemplo cableando KPIs + actividad diaria con cache.
 
 Todo lo demás (convenciones, gotchas, multi-bot, auth, reportes) está en las `references/` de la skill.

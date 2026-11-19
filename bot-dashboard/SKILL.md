@@ -37,7 +37,7 @@ cuando trabajes sobre uno de ellos. Esta skill captura lo que es **común y tran
 
 ```
 app.py                 # entry point: set_page_config, inject CSS, (auth), nav, render páginas
-pages/  o  tabs        # una vista por archivo/tab (overview, usuarios, alertas, leaderboard…)
+views/  o  tabs        # una vista por archivo/tab (carpeta views/, NUNCA pages/: ver gotchas) (overview, usuarios, alertas, leaderboard…)
 components/
   charts.py            # FÁBRICA Plotly centralizada — todas las gráficas salen de acá
   kpi_row.py           # KPI cards HTML custom (accent bar + icono + sparkline + delta)

@@ -52,8 +52,11 @@ archivos, cuatro fechas). Nunca para organizar un argumento.
 
 **Corto.** Tres o cuatro párrafos. Si va más largo, es que entró algo que no bloquea.
 
-**Saludo y cierre simples.** "Hola \<nombre\>," y "Quedo atento," / "Quedo atenta a tus
-comentarios,". Sin fórmulas de cortesía largas.
+**Saludo simple y sin cierre.** "Hola \<nombre\>," y el correo termina en el último
+párrafo con contenido. **Nada de despedida**: ni "Quedo atento," ni "Quedo atenta a tus
+comentarios," ni "Saludos," (a Daniel no le gusta; lo dijo el 2026-11-18). **Sin firma**:
+nada de "Un abrazo, Daniel" ni el nombre al final; la firma de Plural la pone Gmail
+(`includeSignature: true`) y con eso queda perfecto.
 
 ## Qué entra y qué no
 

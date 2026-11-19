@@ -22,7 +22,9 @@ cd ~/Dev/linkedin-radar && .venv/bin/python -m radar
 ```
 
 Ventana de 4 días por defecto. Si no sale nada nuevo, `--dias 7`. Si cambiaste
-el criterio o `publicados.yaml`, `--rerank` re-puntúa sin volver a gastar Apify.
+el criterio o `publicados.yaml`, `--rerank` re-puntúa lo capturado en la ventana
+sin volver a gastar Apify (y no pisa la nota del día: escribe `-2`, `-3`…).
+`--modelo <id>` prueba el ranking con otro modelo sin tocar `state.db`.
 
 Sale una nota en `salidas/YYYY-MM-DD-radar.md` con los mejores ángulos, cada uno
 con su score, el texto del tweet, el ángulo, y —esto es lo importante— una lista
@@ -34,14 +36,17 @@ Después:
    pegues la nota entera.
 2. Él escoge. Si no contesta y el contexto pide avanzar, tomá el de score más
    alto y decí cuál tomaste.
-3. **Verificá contra la fuente primaria antes de escribir.** El tweet es materia
+3. **Si el ángulo dice «respuesta en un hilo», abrí el hilo completo.** Seis de
+   cada diez tweets de la watchlist son respuestas; en Artificial Analysis las
+   cifras viven en la continuación del hilo.
+4. **Verificá contra la fuente primaria antes de escribir.** El tweet es materia
    prima, no fuente. Buscá el paper, el writeup, el post oficial. Esto no es
    opcional: la regla de evidencia de Daniel es que nunca se afirma algo que no
    esté medido, y un hilo de X resumiendo a otro no es una medición.
-4. Escribí el post con `/posts`. **La cuenta de la watchlist nunca se menciona
+5. Escribí el post con `/posts`. **La cuenta de la watchlist nunca se menciona
    en el post.** Es el radar de Daniel, no la fuente: el crédito va a quien hizo
    el trabajo (el writeup, el paper, la empresa). La historia la cuenta él.
-5. Cuando lo publique, agregá una línea a `publicados.yaml` para que el radar
+6. Cuando lo publique, agregá una línea a `publicados.yaml` para que el radar
    no se lo vuelva a ofrecer.
 
 ## Vía B — un link suelto

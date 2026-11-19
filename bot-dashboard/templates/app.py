@@ -19,9 +19,9 @@ inject_styles()  # CSS global, una sola vez, antes de renderizar nada
 
 # Multipágina: agregá una st.Page por vista. La nav nativa aparece en el sidebar.
 pages = [
-    st.Page("pages/overview.py", title="Inicio", icon="📊"),
-    # st.Page("pages/usuarios.py", title="Usuarios", icon="👥"),
-    # st.Page("pages/alertas.py", title="Alertas", icon="🚨"),
+    st.Page("views/overview.py", title="Inicio", icon="📊"),
+    # st.Page("views/usuarios.py", title="Usuarios", icon="👥"),
+    # st.Page("views/alertas.py", title="Alertas", icon="🚨"),
 ]
 
 pg = st.navigation(pages)

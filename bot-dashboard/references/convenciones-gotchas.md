@@ -72,3 +72,14 @@ El dashboard **lee** lo que el bot **escribe**. Cambios en el formato del bot ro
 
 Cada repo tiene su `CLAUDE.md`. Actualizarlo cuando cambie: arquitectura, stack, esquema de la DB,
 páginas/componentes, flujo de datos bot→dashboard. **No** por bugfixes menores, ajustes de UI o copy.
+
+## Las vistas van en `views/`, NUNCA en `pages/` (seguridad, 2026-11-12)
+
+Con una carpeta `pages/`, Streamlit la toma como multipágina clásica hasta que la sesión llega a `st.navigation`. Si el entrypoint tiene un login que hace `st.stop()` antes de `st.navigation`, una sesión sin login nunca llega. Entonces abrir `/<página>` directamente **corre ese archivo sin pasar por el entrypoint ni por el login**.
+
+Pasó en aly-dashboard, en producción y en Streamlit Cloud, desde 2026-06-15 hasta 2026-11-12: alertas, transcripciones y teléfonos quedaban a la vista con solo tener el link.
+
+Con `views/` no hay carpeta que Streamlit corra sola. Para comprobarlo:
+1. Arrancar un servidor nuevo.
+2. Abrir una ventana privada.
+3. Entrar directo a `/<página>` y verificar que pide login.

@@ -38,7 +38,7 @@ Dos layouts válidos, según tamaño:
 **Multipágina (aly-dashboard)** — cuando hay varias vistas ricas:
 ```
 app.py                 # st.navigation(pages, position="hidden") + nav custom en sidebar
-pages/overview.py …
+views/overview.py …
 components/charts.py · kpi_row.py · filters.py
 utils/db.py · styles.py · i18n.py · auth.py
 data/
@@ -51,7 +51,7 @@ src/db.py              # capa de datos
 src/*_report.py        # reportes (Excel / narrativa)
 ```
 
-Empezá con tabs si son ≤4 vistas simples; pasá a `pages/` cuando cada vista crece.
+Empezá con tabs si son ≤4 vistas simples; pasá a `views/` (NUNCA `pages/`, ver convenciones-gotchas) cuando cada vista crece.
 
 ## Entry point (patrón app.py)
 

@@ -8,8 +8,9 @@ description: >-
   línea, el "Peeeero", el inciso que baja el tono, la salvedad metodológica— y
   las reglas de listas, links y longitud. Úsala cuando el pedido sea escribir,
   reescribir o ajustar un post para LinkedIn: "armá un post", "escribí algo
-  sobre esto", "pasá esta noticia a post", "mejorá este borrador". No es para
-  correos (esa es `correos`) ni para informes.
+  sobre esto", "pasá esta noticia a post", "mejorá este borrador". También su
+  versión para X (quote al post de la fuente). No es para correos (esa es
+  `correos`) ni para informes.
 ---
 
 # posts — cómo escribe Daniel en LinkedIn
@@ -169,6 +170,53 @@ El 🔗 y el 💻 aparecen sobre todo en los posts de dashboards propios.
 
 **Hashtags: casi nunca.** Los recientes no llevan. Si el post es de datos
 abiertos con vocación de alcance, tres o cuatro máximo y específicos.
+
+## X
+
+Desde el 2026-10-26 Daniel también publica en X (@daotr03). La forma que le ha
+funcionado es una sola: **quote al post de la fuente**, no un post suelto.
+
+- Se cita el post de quien hizo el trabajo (Thorsten Ball, Artificial
+  Analysis). Si la fuente sacó algo más nuevo con gráfica, se cita ese: la
+  imagen del quote hace el trabajo visual. En AA v5 no citó el anuncio del
+  índice sino el post del día siguiente, el de Gemini 4 Carbon #1 con el gráfico.
+- Un solo post en español, dos o tres párrafos cortos sacados del de LinkedIn:
+  el dato que sorprende y el giro. El borrador en hilo de tres lo juntó en uno.
+- Remate liviano y personal, no la frase redonda: *"Las cosas que estamos viendo!"*.
+- La bajada práctica se queda en LinkedIn; en X la sacó.
+- Alcance: el quote a Thorsten (26-oct) sacó 46 vistas, 2 likes, 1 repost y 1
+  respuesta, de gente que Daniel no conoce, con 31 seguidores. Es poco en
+  absoluto, pero es alcance que llega por la fuente citada, no por su red.
+
+Al entregar un post, la versión X va al final: un solo bloque de 280 caracteres
+o menos, con el post a citar.
+
+**Cuando el contenido es para X y no sale de un post de LinkedIn (2026-11-15,
+charla de poteto): "en X no posteamos como el LinkedIn, la idea es contenido
+tipo el de Santiago".** Tumbó un hilo con gancho, frases de una línea y remate
+personal ("Me sentí aludido con mi CLAUDE.md"). Lo que quiere es **educativo**:
+contar los insights de la fuente, explicados. La forma de @santtiagom_ (sus
+posts con más vistas están en `~/Dev/linkedin-radar/data/raw/`):
+- Quote a la fuente + imagen si la hay. Abre diciendo quién hizo qué y por qué
+  vale la pena ("Uber publicó cómo armó… y hay varias ideas muy buenas acá").
+- Explica en orden, con lista `1) 2) 3)` cuando hay partes (capas, pasos), cada
+  una con su ejemplo concreto de la fuente.
+- Los datos que sorprenden van como "lo que más me llamó la atención", no
+  como gancho.
+- Cierra con la idea general o el consejo de la fuente + invitación a leer o ver
+  el original. Nada de remate ingenioso.
+- Un solo post largo (~1.500–2.000 caracteres) si hay Premium; si no, cortado en
+  pedazos de menos de 280.
+
+**Y desde el 2026-11-18 también vale cuando el X sale de un post de LinkedIn.**
+En el de las herramientas del chat tumbó el post corto suelto ("hagámoslo más
+educativo, como los de Santiago"). Después tumbó la versión que calcaba las
+fórmulas de Santiago ("Uber publicó cómo… y hay varias ideas muy buenas acá",
+"La idea de fondo:") y pidió que estuviera **en su voz**. De Santiago se toma la
+estructura educativa (explicar en orden, lista `1) 2) 3)` con un ejemplo concreto
+en cada parte). La apertura, el giro y el cierre son de Daniel: la promesa de
+utilidad ("Te cuento qué…"), voseo, incisos con `--`, una frase de una línea que
+remata ("Nueve.") y un cierre que invita a hacer algo, no la moraleja.
 
 ## Longitud
 
