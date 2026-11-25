@@ -83,6 +83,11 @@ No entra:
 
 ## Cómo se dice
 
+**En primera persona del singular.** «No pude resolver», «revisé», «te adjunto»; no «no
+pudimos», «revisamos», «les enviamos» por estilo. El plural solo cuando de verdad es una
+decisión o acción del equipo con nombre («con Esteban decidimos»). Regla general de Daniel
+(2026-11-24, después de que se repitiera).
+
 **Desde lo que el otro necesita entender, no desde adentro del documento.** Una frase como
 "no hace falta volver a llenarla" es correcta para quien tiene el brief al lado y no dice
 nada para quien lo lee en el celular. Escribir la versión que se entiende sola.

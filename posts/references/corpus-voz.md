@@ -6,6 +6,30 @@ el feed (0 = el más reciente).
 
 ---
 
+## [install-as-app] · borrador del 2026-11-24 · versión editada por Daniel sobre un borrador de Claude
+*Duodécimo ejemplo de edición. Noticia de producto: Install as app de Claude (artifacts como apps de Mac/Windows). El pedido fue "empecemos conectando que Claude arma artifacts, contemos muy breve qué es y boom la noticia", y esa estructura la dejó intacta: apertura, definición de artifact, "Hasta hoy… / Desde hoy se instala como app." como giro, y los datos del anuncio. Lo único que sacó fue el bloque "¿Cómo lo aprovechás mañana, aunque no programes?" con cinco `→` (la pestaña de todas las mañanas, probar y luego Compartir > Install as app, prep de reuniones con calendario y correo, permisos por niveles, cuenta contra el límite del plan): "no siempre debemos poner eso de cómo aprovecharlo". Con el bloque se fueron la advertencia de permisos y la del límite, y no las rescató. Pegó "Sin empaquetar…" y "Para que se hagan una idea…" con salto simple y juntó el cierre de dos líneas en un solo párrafo. Va sin link y con el video del anuncio.*
+
+> Claude no solo responde. También arma cosas.
+>
+> Le pedís una página, un dashboard, un tracker o una calculadora y te lo construye ahí mismo, al lado del chat, listo para usar y compartir con un link. Eso es un artifact.
+>
+> Hasta hoy, ese artifact vivía adentro de Claude.
+>
+> Desde hoy se instala como app.
+>
+> Anthropic lanzó "Install as app": le pedís la herramienta a Claude, la probás como artifact, le das "Install as app" y queda en tu Mac o tu Windows con su propio ícono y su propia ventana. Como cualquier otra app.
+>
+> Y no es un acceso directo con ícono bonito. La app puede usar Claude y tus conectores (calendario, correo), mandarte notificaciones y ponerse en la barra de menú. Si editás el artifact, la app se actualiza sola.
+>
+> Sin empaquetar nada, sin API key, sin login aparte: usa tu cuenta de Claude.
+> Para que se hagan una idea, en Anthropic ya armaron así un editor de imágenes con capas, un gestor de archivos y un monitor del rendimiento del computador que vive en la barra de menú.
+>
+> Está en beta y se está habilitando en todos los planes (en Enterprise hay que esperar a que lo active el owner de la cuenta).
+>
+> Hasta ahora le pedías a la IA la respuesta. Ahora le podés pedir la herramienta.
+
+---
+
 ## [chat-nuevo] · programado para 2026-10-19 · versión editada por Daniel sobre un borrador de Claude
 *Sexto ejemplo de edición. Daniel lo eligió como "el mejor de los 3, muy al día a día de las personas" (frente a Muse Spark Open y Durable Execution, escritos el mismo día). Le agregó una apertura que no estaba: le promete al lector algo práctico y se pone él en la escena ("Aprendé a usar la IA de forma muy practica. Te dejo un tip que leí la semana pasada."). Sacó el puente "Y no es una manía suya." y la "Y" de "Y apagarla no lo resuelve todo.", que dejó en su propio párrafo. Cambió "robarse" por "agarrarlo". Partió el cierre en dos párrafos de una línea. Va con la figura 1 del paper de Microsoft/Salesforce.*
 

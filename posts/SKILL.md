@@ -357,9 +357,31 @@ tomalo como tendencia, no como ley.
   mismo en pequeño" con cinco `→` (tu propio examen con tareas reales que no están en
   internet, lo mismo en dos o tres modelos, calificar "¿lo mandarías sin tocarlo?" como
   FrontierCode, mismo modelo pensando poco y mucho con el dato 35 vs 58, repetir el
-  examen con cada modelo nuevo). Ya no es tendencia: **todo post, también los de
-  benchmarks, lleva la bajada práctica por defecto**, aunque no la pida. Ver ítem 12
-  del checklist.
+  examen con cada modelo nuevo). En los posts de benchmarks, modelos y papers **la
+  bajada práctica va por defecto**, aunque no la pida (pero ojo con el duodécimo
+  post: no es para todos). Ver ítem 12 del checklist.
+- **Undécimo post (escribir como vos, Mike Taylor/Every, 2026-11-23): "nos estamos
+  complicando contando cosas enredadas que no se entienden, siempre a lo práctico".**
+  El borrador contaba el método en cinco pasos (brief, juez con orden cambiado,
+  optimizadores, skill por modelo, con cifras en cada uno) y después la bajada `→`.
+  Daniel borró todo el método y las cifras y dejó **solo los tips `→`**, con apertura
+  de promesa ("Seguí estos 5 tips para que tu IA escriba más parecido a vos y menos
+  a... si, una IA."). Ya no es solo agregar la bajada práctica: **cuando la fuente es
+  un método técnico, el post ES la bajada práctica**; el cómo-lo-hizo-el-autor y sus
+  números se quedan en el link. Si un dato no cambia lo que el lector hace mañana,
+  va afuera. Ojo al recortar así: los tips no pueden quedar hablando de "él" sin
+  presentar al autor, y el crédito sigue yendo arriba o al final con nombre.
+- **Duodécimo post (Install as app de Claude, 2026-11-24): "no siempre debemos poner
+  eso de cómo aprovecharlo".** Era una noticia de producto: qué es un artifact y que
+  ahora se instala como app. El borrador cerraba con el bloque `→` de "¿Cómo lo
+  aprovechás mañana?" y Daniel lo sacó. **La bajada práctica no es obligatoria.**
+  Cuando la noticia ya dice por sí sola qué cambia para el usuario (una función nueva
+  que se entiende al contarla), el bloque sobra y alarga. Va cuando la fuente es un
+  benchmark, un modelo, un paper o un método y el lector no sabría qué hacer con eso.
+  Ante la duda, ofrecelo aparte en vez de meterlo. Fuera de eso dejó todo igual: la
+  estructura pedida (Claude arma cosas → qué es un artifact → "Desde hoy se instala
+  como app." → los datos) y el cierre, que juntó en un solo párrafo. Está completo en
+  `references/corpus-voz.md`.
 
 ## Checklist antes de publicar
 
@@ -377,9 +399,11 @@ tomalo como tendencia, no como ley.
 11. ¿Suena a alguien explicando algo que le importa, o a alguien posicionándose?
 12. ¿Hay algo que una persona NO técnica pueda hacer mañana con esto? Si el post es de
     un benchmark, un modelo o un paper, falta el bloque práctico (lista `→` de 3 a 5
-    acciones, cada una amarrada a un dato de la fuente). Sin eso no está listo.
+    acciones, cada una amarrada a un dato de la fuente). Si es una noticia de producto
+    que ya se entiende sola (una función nueva), NO lo metas por reflejo: ofrecelo
+    aparte.
 
 
 ## Ejemplos completos
 
-`references/corpus-voz.md` — diecisiete posts reales con su alcance y qué hace cada uno (los seis primeros, con lo que Daniel le cambió al borrador).
+`references/corpus-voz.md` — dieciocho posts reales con su alcance y qué hace cada uno (los siete primeros, con lo que Daniel le cambió al borrador).
